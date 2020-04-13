@@ -4,7 +4,8 @@ public class PrimeiroPrograma {
 
 	public static void main(String[] args) {
 
-		System.out.println("Hello World. Welcome to Java Programming!");
+		System.out.print("Hello World. ");
+		System.out.println("Welcome to Java Programming!");
 
 	}
 
