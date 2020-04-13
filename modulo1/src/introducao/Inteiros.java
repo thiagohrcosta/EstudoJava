@@ -8,9 +8,9 @@ public class Inteiros {
 		// Criar um Scanner para obter entrada a partir de um comando
 		Scanner sc = new Scanner(System.in);
 		
-		int number1;
-		int number2;
-		int sum;
+		int number1,
+			number2,
+			sum;
 		
 		System.out.print("Digite o primeiro inteiro:");
 		number1 = sc.nextInt();
