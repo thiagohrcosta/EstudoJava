@@ -41,7 +41,7 @@ public class ExercicioFixacao2 {
 			System.out.println("Obeso");
 		}
 		
-		
+		sc.close();
 		
 
 	}
