@@ -1,27 +1,14 @@
 package modulo2;
 
-import java.util.Scanner;
-
 public class AccountTest {
 
 	public static void main(String[] args) {
 
-		Scanner input = new Scanner(System.in);
 		
-		Account myAccount = new Account();
-		
-		System.out.printf("Initial name is: %s%n%n", myAccount.getName());
-		
-		System.out.println("Please enter the name:");
-		String theName = input.nextLine();
-		myAccount.setName(theName);
+		Account account1 = new Account("Jane Green");
 
-		System.out.println();
+		System.out.printf("account1 name is: %s%n", account1.getName());
 		
-		System.out.printf("Name in objetc myAccount is:%n%s%n",
-				myAccount.getName());
-		input.close();
-
 	}
 
 }
